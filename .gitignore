@@ -1,4 +1,7 @@
-note
-n
-*.o
 *.a
+*.log
+*.o
+*.tgz
+*.txt
+n
+note

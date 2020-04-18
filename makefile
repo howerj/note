@@ -1,12 +1,13 @@
-# PROJECT: pickle, a TCL like interpreter
-# LICENSE: BSD (see 'pickle.c' or 'LICENSE' file)
-# SITE:    https://github.com/howerj/pickle
+# PROJECT: note
+# LICENSE: Unlicense (see 'pickle.c' or 'LICENSE' file)
+# SITE:    https://github.com/howerj/note
 #
+VERSION = 0x010000
 TARGET  = note
-CFLAGS  = -std=c99 -Wall -Wextra -pedantic -O2 ${DEFINES} ${EXTRA}
+CFLAGS  = -std=c99 -Wall -Wextra -pedantic -O2 ${DEFINES}
 DESTDIR = install
 
-.PHONY: all clean install dist
+.PHONY: all clean install check dist
 
 all: ${TARGET}
 
