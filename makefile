@@ -1,5 +1,5 @@
 # PROJECT: note
-# LICENSE: Unlicense (see 'pickle.c' or 'LICENSE' file)
+# LICENSE: Unlicense (see 'note.c' or 'LICENSE' file)
 # SITE:    https://github.com/howerj/note
 #
 VERSION = 0x010000
